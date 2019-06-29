@@ -52,5 +52,5 @@ function cleanText()
         text += words[i]+' '
     text = text.slice(0, text.length)
   }
-  document.getElementById('cleaned').innerHTML = text;
+  document.getElementById('clean').innerHTML = text;
 }

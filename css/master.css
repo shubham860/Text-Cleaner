@@ -1,5 +1,19 @@
+:root {
+  --c1: #F0F7D4;
+  --c2: #B2D732;
+  --c3: #66B032;
+  --c4: #347B98;
+  --c5: #092834;
+}
+*, h1, h2, h3, h4, h5, h6{
+  color: var(--c5);
+}
+body{
+  background-color: var(--c1);
+}
 .col > .btn{
   width: 100%;
+  background-color: var(--c4);
 }
 .col{
   margin-top: 5px;
@@ -9,4 +23,54 @@
   .description{
     display: none;
   }
+}
+#clean-container{
+  background-color: var(--c3);
+  padding: 5px;
+}
+header{
+  background-color: var(--c3);
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+footer{
+  background-color: var(--c2);
+  padding: 5px;
+  text-align: right;
+}
+.material-icons{
+  padding: 5px;
+}
+/* FORM */
+/* label color */
+.input-field label {
+  color: var(--c5);
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: var(--c4);
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid var(--c4);
+  box-shadow: 0 1px 0 0 var(--c4);
+}
+
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--c2);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--c3);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c4);
 }
