@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Text Cleaner</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text Cleaner</h1>
+      <div class="sidenav" id="mobile-demo">
+
+      </div>
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Text</label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove URLs</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove Handles</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove Hashtags</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Expand Contractions</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove Punctuations</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove Numbers</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove Shortwords</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Remove Stopwords</span>
+          </label>
+        </div>
+        <div class="col m3 s6">
+          <label>
+            <input type="checkbox" class="cb" checked="checked">
+            <span>Normalize</span>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m4 s3"></div>
+        <div class="col m4 s6">
+          <button type="button" class="btn" onclick="cleanText()">Clean</button>
+        </div>
+        <div class="col m4 s3"></div>
+      </div>
+      <div class="col s12">
+        <p id="cleaned"></p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
+    <script src="js/textclean.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
