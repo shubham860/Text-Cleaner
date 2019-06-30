@@ -29,6 +29,11 @@ body{
   background-color: var(--c2);
   padding: 5px;
 }
+#mobile-demo{
+  padding: 10px;
+  text-align: justify;
+}
+
 header{
   background-color: var(--c3);
   padding: 5px;
