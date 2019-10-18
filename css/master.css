@@ -14,23 +14,28 @@
 body{
   background-color: var(--c1);
 }
+
 .col > .btn{
   width: 100%;
   background-color: var(--c4);
 }
+
 .col{
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 @media screen and (max-width: 600px) {
   .description{
     display: none;
   }
 }
+
 #clean-container{
   background-color: var(--c2);
   padding: 5px;
 }
+
 #mobile-demo{
   padding: 10px;
   text-align: justify;
@@ -45,6 +50,7 @@ header{
   margin: auto;
   margin-top: 5px;
 }
+
 footer{
   background-color: var(--c3);
   padding: 5px;
@@ -53,9 +59,11 @@ footer{
   display: block;
   margin: auto;
 }
+
 .material-icons{
   padding: 5px;
 }
+
 /* FORM */
 /* label color */
 .input-field label {
