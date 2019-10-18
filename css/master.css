@@ -5,10 +5,12 @@
   --c4: #347B98;
   --c5: #092834;
 }
+
 *, h1, h2, h3, h4, h5, h6{
   color: var(--c5);
   font-family: 'Special Elite', cursive;
 }
+
 body{
   background-color: var(--c1);
 }
